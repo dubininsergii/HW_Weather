@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 152, 210);
+
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    text-align: left;
+}
+
+.title__size {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.container {
+    list-style: none;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0;
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+.list {
+    padding: 0;
+}
+
+.list__item {
+    box-shadow: inset 5px 5px #fff;
+    padding: 40px 30px;
+}
+
+.list__item:hover {
+    opacity: .6;
+}
+
+.list__item span {
+    display: block;
+}
+
+.list__item_50 {
+    background: yellow;
+    width: 50%;
+}
+
+.list__item_25 {
+    background: blue;
+    width: 25%;
+}
+
+.list__item_100 {
+    background: greenyellow;
+    width: 100%;
+}
+
+.c1 {
+    background-color: rgb(0, 152, 210);
+}
+
+.c2 {
+    background-color: rgb(0, 208, 207);
+}
+
+.c3 {
+    background-color: rgb(162, 93, 155);
+    border-right: 5px solid #fff;
+}
+
+.c4 {
+    background-color: rgb(208, 56, 59);
+}
+
+.c5 {
+    background-color: rgb(241, 93, 54);
+}
+
+.c6 {
+    background-color: rgb(255, 206, 76);
+}
+
+.c7 {
+    background-color: rgb(138, 209, 150);
+    border-right: 5px solid #fff;
+}
+
+.c8 {
+    background-color: rgb(88, 155, 155);
+}
+
+.c9 {
+    background-color: rgb(218, 87, 153);
+}
+
+.c10 {
+    background-color: rgb(0, 159, 100);
+    border-right: 5px solid #fff;
+}
+
+.c11 {
+    background-color: rgb(105, 97, 157);
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
